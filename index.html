@@ -1,30 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Furniture Store</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
+
 <body>
     <header>
-        <h1>Furniture Store</h1>
+        <h1>Welcome to Our Furniture Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul id="category-filters">
-            <li data-category="all">All</li>
-            <li data-category="dining">Dining</li>
-            <li data-category="drawing-room">Drawing Room</li>
-            <li data-category="kitchen">Kitchen</li>
-            <li data-category="sleeping">Sleeping</li>
-            <li data-category="sofas">Sofas</li>
-            <li data-category="tv-stands">TV Stands</li>
-            <li data-category="refrigerator-stands">Refrigerator Stands</li>
-        </ul>
-    </nav>
+
     <main>
-        <div id="product-list"></div>
+        <section class="hero">
+            <h2>Quality Furniture for Your Home</h2>
+            <p>Discover our range of stylish and affordable furniture.</p>
+        </section>
+
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <!-- Add product details here -->
+        </section>
     </main>
-    <script src="scripts.js"></script>
+
+    <footer>
+        <p>&copy; 2024 Furniture Store. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>
